@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: url(./img//passengers.jpg);
+  background: url(./passengers.jpg);
   background-size: cover;
   background-repeat: repeat-x;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
