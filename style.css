@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(./img//passengers.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 14.6rem auto;
+}
+
+h1 {
+  color: rgb(232, 248, 11);
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 3rem;
+  color: white;
+  margin-top: 20px;
+}
+.btn {
+  outline: none;
+  border: none;
+  width: 180px;
+  padding: 10px 20px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background-color: #fffffff8;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#save-passengers {
+  margin-top: 30px;
+  color: rgb(247, 8, 8);
+  font-weight: bold;
+}
